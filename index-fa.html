@@ -29,6 +29,28 @@
       margin: auto;
     }
     </style>
+
+    <script type="text/javascript"> 
+      //by default it is set on English 
+      var lang = 2;
+      function changeLang(newLang){ 
+        var mylang = '';
+
+        if (newLang == 1){
+          if(lang != 1){
+            mylang = 'fa'; 
+            lang = 1;
+          }
+
+        } else if (newLang == 2){
+          if(lang != 2){
+            mylang = 'en'; 
+            lang = 2;
+          }
+        }
+        document.getElementsByTagName('html')[0].setAttribute('lang',mylang); 
+      } 
+    </script>  
   </head>
 
   <body id="page-top">
@@ -62,8 +84,8 @@
               <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> گویش
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Persian - فارسی </a>
-                <a class="dropdown-item" href="#">English - انگلیسی</a>
+                <button class="dropdown-item" onclick="changeLang(1)">Persian - فارسی</a>
+                <button class="dropdown-item" onclick="changeLang(2)">English - انگلیسی</a>
               </div>
             </li>
           </ul>
@@ -535,7 +557,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <span class="copyright">Copyright &copy; Your Website 2017</span>
+            <span class="copyright">Copyright &copy; Jahan Moura 2017</span>
           </div>
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
