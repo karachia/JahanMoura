@@ -1,0 +1,11 @@
+.description {
+	text-align: right;
+}
+
+.description li {
+	font-size: 0.9em;
+	padding-top: 10px;
+	margin-right: 0px;
+	padding-right: 0px;
+
+}
