@@ -16,7 +16,7 @@ a {
     color: #fec503; }
 
 .text-primary {
-  color: #fed136 !important; }
+  color: #1F618D !important; }
 
 h1,
 h2,
@@ -142,8 +142,8 @@ header.masthead {
   -o-background-size: cover;
   background-size: cover; }
   header.masthead .intro-text {
-    padding-top: 150px;
-    padding-bottom: 100px; }
+    padding-top: 100px;
+    padding-bottom: 80px; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 22px;
       font-style: italic;
@@ -159,8 +159,8 @@ header.masthead {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px; }
+    padding-top: 200px;
+    padding-bottom: 100px; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 40px;
       font-style: italic;

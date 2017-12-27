@@ -1,4 +1,4 @@
-.description {
+.FA-text {
 	text-align: right;
 }
 
@@ -9,3 +9,54 @@
 	padding-right: 0px;
 
 }
+
+#JM-NavLogo {
+	max-width: 35%;
+	max-height: 35%;
+	padding : 0px;
+	margin: 0px;
+}
+
+#JM-NavLogo:hover {
+  -webkit-filter: sepia(3);
+  filter: sepia(3);
+  /*-webkit-filter: contrast(4);
+  filter: contrast(4);*/
+}
+
+#JM-cover {
+	vertical-align: text-top;
+	max-width: 100%;
+	/*max-height: 100%;*/
+	height: auto;
+	padding-bottom: 30px;
+}
+
+#worldMap {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.color-yellow{
+	color: #FEF5E7;
+}
+
+.color-blue{
+	color: #1F618D;
+}
+
+#arrow-cover:hover {
+	color: #F4D03F;
+	-ms-transform: scale(1.5, 1.5); /* IE 9 */
+    -webkit-transform: scale(1.5, 1.5); /* Safari */
+    transform: scale(1.5, 1.5); /* Standard syntax */
+    transition:0.8s;
+
+}
+
+/*@media only screen and (max-width: 700px) {
+#JM-cover {
+	max-width: 70%;
+	max-height: 70%;
+	
+}*/
