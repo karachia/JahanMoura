@@ -179,7 +179,8 @@ body {
 header.masthead {
 	text-align: center;
 	color: #fff;
-	background-image: url(../img/cover/routes.jpg);
+	background-color: #19335D;
+	background-image: url(../img/map-image.png);
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: center center;
@@ -190,8 +191,8 @@ header.masthead {
 }
 
 header.masthead .intro-text {
-	padding-top: 100px;
-	padding-bottom: 80px
+	padding-top: 150px;
+	padding-bottom: 100px
 }
 
 header.masthead .intro-text .intro-lead-in {
@@ -212,8 +213,8 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width:768px) {
 	header.masthead .intro-text {
-		padding-top: 200px;
-		padding-bottom: 100px
+		padding-top: 300px;
+		padding-bottom: 200px
 	}
 
 	header.masthead .intro-text .intro-lead-in {
