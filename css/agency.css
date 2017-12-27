@@ -81,7 +81,8 @@ body {
   -webkit-tap-highlight-color: #fed136; }
 
 #mainNav {
-  background-color: #212529; }
+  background-color: #19335D; 
+}
   #mainNav .navbar-toggler {
     font-size: 12px;
     right: 0;
@@ -89,7 +90,7 @@ body {
     text-transform: uppercase;
     color: white;
     border: 0;
-    background-color: #fed136;
+    background-color: #19335D;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   #mainNav .navbar-brand {
     color: #fed136;
@@ -125,7 +126,7 @@ body {
     #mainNav.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
-      background-color: #212529; }
+      background-color: #19335D; }
       #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0; } }
@@ -440,7 +441,7 @@ header.masthead {
     margin-top: 0; }
 
 section#contact {
-  background-color: #212529;
+  background-color: #19335D;
   background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
   background-position: center; }

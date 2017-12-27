@@ -21,8 +21,9 @@ a:hover {
 }
 
 .text-primary {
-	color: #fed136 !important
-	
+	/*color: #fed136 !important;*/
+	color: #234A87 !important;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -104,7 +105,7 @@ body {
 }
 
 #mainNav {
-	background-color: #212529
+	background-color: #19335D;
 }
 
 #mainNav .navbar-toggler {
@@ -114,7 +115,7 @@ body {
 	text-transform: uppercase;
 	color: #fff;
 	border: 0;
-	background-color: #fed136;
+	background-color: #19335D;
 	font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
@@ -165,7 +166,7 @@ body {
 	#mainNav.navbar-shrink {
 		padding-top: 0;
 		padding-bottom: 0;
-		background-color: #212529
+		background-color: #19335D
 	}
 
 	#mainNav.navbar-shrink .navbar-brand {
@@ -617,7 +618,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
-	background-color: #212529;
+	background-color: #19335D;
 	background-image: url(../img/map-image.png);
 	background-repeat: no-repeat;
 	background-position: center
