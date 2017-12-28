@@ -30,14 +30,16 @@ var aboutDesc = '<span dir="rtl">شرکت جهان مورا به عنوان یک
 
 //Offices
 var officesHeader = 'شعبه ها';
-var qhesm;
-var esfahan;
-var tehran;
-var bandar;
+var qeshm = 'قشم - دفتر مرکزی';
+var esfahan = 'اصفهان - دفتر بازرگانی';
+var tehran = 'تهران - دفتر اداری';
+var bandar = 'بندر عباس - دفتر عملیات';
 var qhesmInfo;
 var esfahanInfo;
 var tehranInfo;
 var bandarInfo;
+
+// <span id="qeshmOfficeH"></span>
 
 function reloadContent() {
 //navigation bar
@@ -75,4 +77,10 @@ function reloadContent() {
     document.getElementById("aboutDesc").innerHTML = aboutDesc;
 //Offices
     document.getElementById("officesHeader").innerHTML = officesHeader;
+
+    document.getElementById("qeshmOfficeH").innerHTML = qeshm;
+    document.getElementById("isfahanOfficeH").innerHTML = esfahan;
+    document.getElementById("tehranOfficeH").innerHTML = tehran;
+    document.getElementById("bandarOfficeH").innerHTML = bandar;
+
 }
