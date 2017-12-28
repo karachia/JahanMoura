@@ -62,6 +62,14 @@ function reloadContent() {
     document.getElementById("airContent").innerHTML = air;
     document.getElementById("roadContent").innerHTML = road;
     document.getElementById("railContent").innerHTML = rail;
+    //modals
+    document.getElementById("oceanFreight").innerHTML = oceanHeader;
+    document.getElementById("airFreight").innerHTML = airHeader;
+    document.getElementById("roadFreight").innerHTML = roadHeader;
+    document.getElementById("railFreight").innerHTML = railHeader;
+    document.getElementById("multiFreight").innerHTML = multiHeader;
+
+
 //About us
     document.getElementById("aboutHeader").innerHTML = aboutHeader;
     document.getElementById("aboutDesc").innerHTML = aboutDesc;
