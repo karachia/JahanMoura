@@ -203,12 +203,13 @@ header.masthead .intro-text .intro-lead-in {
 	font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
+
 header.masthead .intro-text .intro-heading {
-	font-size: 50px;
+	font-size: 36px;
 	font-weight: 700;
 	line-height: 50px;
 	margin-bottom: 25px;
-	font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
+	/*font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif*/
 }
 
 @media (min-width:768px) {
@@ -217,8 +218,9 @@ header.masthead .intro-text .intro-heading {
 		padding-bottom: 200px
 	}
 
+
 	header.masthead .intro-text .intro-lead-in {
-		font-size: 40px;
+		font-size: 26px;
 		font-style: italic;
 		line-height: 40px;
 		margin-bottom: 25px;
@@ -230,7 +232,7 @@ header.masthead .intro-text .intro-heading {
 		font-weight: 700;
 		line-height: 75px;
 		margin-bottom: 50px;
-		font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
+		/*font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif*/
 	}
 
 }

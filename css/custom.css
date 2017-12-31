@@ -2,6 +2,10 @@
 	text-align: right;
 }
 
+.EN-text {
+	text-align: left;
+}
+
 .description li {
 	font-size: 0.9em;
 	padding-top: 10px;
@@ -126,4 +130,15 @@
 	font-family: Helvetica, Arial;
 	font-size: 0.8em;
 	font-style: italic;
+}
+
+#main-heading{
+	font-weight: bold;
+	font-size: 64px;
+	font-family: 'Coda Caption', sans-serif;
+
+}
+#sub-main-heading{
+	font-size: 28px;
+	font-family: sans-serif;
 }
