@@ -11,8 +11,8 @@ var navContact_en = 'Contact';
 var servicesHeader_en = 'Services';
 var oceanHeader_en = 'Ocean Freight';
 var airHeader_en = 'Air Freight';
-var railHeader_en = 'Road Freight';
-var roadHeader_en = 'Rail Freight';
+var railHeader_en = 'Rail Freight';
+var roadHeader_en = 'Road Freight';
 var multiHeader_en = 'Multi Modal';
 var jitHeader_en = 'Just in Time (J.I.T)';
 

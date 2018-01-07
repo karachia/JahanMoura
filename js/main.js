@@ -1,7 +1,7 @@
 
 
 //by default it is set on Farsi
-var lang = 1;
+var lang = 2;
 
 function changeLang(newLang) {
     var mylang = '';
