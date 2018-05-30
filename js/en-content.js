@@ -30,16 +30,26 @@ var aboutDesc_en = '<span class="text-left">Jahan Moura, an Iran-based internati
 
 //Offices
 var officesHeader_en = 'Offices';
-var qeshm_en = 'Qeshm - Headquarter';
-var esfahan_en = 'Isfahan - Marketing';
-var tehran_en = 'Tehran - Administration';
-var bandar_en = 'Bandar Abbas - Operations';
+var qeshmOffice_en = 'Qeshm - Headquarter';
+var esfahanOffice_en = 'Isfahan - Marketing';
+var tehranOffice_en = 'Tehran - Administration';
+var bandarOffice_en = 'Bandar Abbas - Operations';
 var qeshmInfo_en = 'Telephone: +98 (076) 352-44970-2<br>Fax: +98 (076) 352-44973';
 var esfahanInfo_en = 'Telephone: +98 (031) 333-85140-2<br>Fax: +98 (031) 333-79344';
 var tehranInfo_en = 'Telephone: +98 (021) 885-30671-2<br>Fax: +98 (021) 887-53869';
 var bandarInfo_en = 'Telephone: +98 (076) 336-64581<br>Fax: Extension: 115';
 
-
+//contact us
+var telegram_en = "Telegram: ";
+var contactHeader_en = 'Contact Us';
+var qeshm_en = 'Qeshm';
+var esfahan_en = 'Isfahan';
+var tehran_en = 'Tehran';
+var bandar_en = 'Bandar Abbas';
+var qeshmP_en = 'Head Office';
+var esfahanP_en = 'Headquarter';
+var tehranP_en = 'Administration';
+var bandarP_en = 'Operations';
 
 function loadEnglish() {
 //navigation bar
@@ -81,13 +91,25 @@ function loadEnglish() {
 //Offices
     document.getElementById("officesHeader").innerHTML = officesHeader_en;
     //headers
-    document.getElementById("qeshmOfficeH").innerHTML = qeshm_en;
-    document.getElementById("isfahanOfficeH").innerHTML = esfahan_en;
-    document.getElementById("tehranOfficeH").innerHTML = tehran_en;
-    document.getElementById("bandarOfficeH").innerHTML = bandar_en;
+    document.getElementById("qeshmOfficeH").innerHTML = qeshmOffice_en;
+    document.getElementById("isfahanOfficeH").innerHTML = esfahanOffice_en;
+    document.getElementById("tehranOfficeH").innerHTML = tehranOffice_en;
+    document.getElementById("bandarOfficeH").innerHTML = bandarOffice_en;
     //info
     document.getElementById("qeshmInfo").innerHTML = qeshmInfo_en;
     document.getElementById("isfahanInfo").innerHTML = esfahanInfo_en;
     document.getElementById("tehranInfo").innerHTML = tehranInfo_en;
     document.getElementById("bandarInfo").innerHTML = bandarInfo_en;
+
+//contact
+    document.getElementById("contactusHead").innerHTML = contactHeader_en;
+    document.getElementById("qeshm").innerHTML = qeshm_en;
+    document.getElementById("tehran").innerHTML = tehran_en;
+    document.getElementById("isfahan").innerHTML = esfahan_en;
+    document.getElementById("bandarabbas").innerHTML = bandar_en;
+    document.getElementById("qeshmP").innerHTML = qeshmP_en;
+    document.getElementById("tehranP").innerHTML = tehranP_en;
+    document.getElementById("isfahanP").innerHTML = esfahanP_en;
+    document.getElementById("bandarabbasP").innerHTML = bandarP_en;
+    document.getElementById("telegram").innerHTML = telegram_en;
 }

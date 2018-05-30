@@ -29,14 +29,27 @@ var aboutDesc = '<p dir="rtl" class="text-right">شرکت جهان مورا به
 
 //Offices
 var officesHeader = 'شعبه ها';
-var qeshm = 'قشم - دفتر مرکزی';
-var esfahan = 'اصفهان - دفتر بازرگانی';
-var tehran = 'تهران - دفتر اداری';
-var bandar = 'بندر عباس - دفتر عملیات';
+var qeshmOffice = 'قشم - دفتر مرکزی';
+var esfahanOffice = 'اصفهان - دفتر بازرگانی';
+var tehranOffice = 'تهران - دفتر اداری';
+var bandarOffice = 'بندر عباس - دفتر عملیات';
 var qeshmInfo = '<span dir="rtl">آدرس: قشم، میدان گلها، ساختمان جهان مورا<br>تلفن: 2-35244970 (076) 98+ <br> فکس: 35244973 (076) 98+ </span>';
 var esfahanInfo = '<span dir="rtl"> آدرس: اصفهان، خیابان باهنر، ساختمان اسپادانا سامان، طبقه پنجم، واحد ۱ و ۲ <br> تلفن: 4-33385140 (031) 98+ <br>فکس: 33379344 (031) 98+ </span>';
 var tehranInfo = '<span dir="rtl">آدرس: خیابان مطهری – خیابان میرعماد، کوچه چهارم، طبقه دوم واحد ۷<br>تلفن: 2-88530671 (021) 98+ <br>فکس: 88753869 (021) 98+</span>';
 var bandarInfo = '<span dir="rtl"> آدرس: بلوار امام خمینی، مجتمع نخل گلشهر، طبقه اول، واحد ۷<br> تلفن: 33664581 (076) 98+ <br>فکس: داخلی (115)</span>';
+
+
+//contact us
+var telegram = "<strong>تلگرام: </strong>";
+var contactHeader = 'تماس با ما';
+var qeshm = 'قشم';
+var esfahan = 'اصفهان';
+var tehran = 'تهران';
+var bandar = 'بندر عباس';
+var qeshmP = 'دفتر مرکزی';
+var esfahanP = 'دفتر اداری';
+var tehranP = 'دفتر بازرگانی';
+var bandarP = 'دفتر عملیات';
 
 // <span id="qeshmOfficeH"></span>
 
@@ -80,13 +93,26 @@ function loadFarsi() {
 //Offices
     document.getElementById("officesHeader").innerHTML = officesHeader;
     //headers
-    document.getElementById("qeshmOfficeH").innerHTML = qeshm;
-    document.getElementById("isfahanOfficeH").innerHTML = esfahan;
-    document.getElementById("tehranOfficeH").innerHTML = tehran;
-    document.getElementById("bandarOfficeH").innerHTML = bandar;
+    document.getElementById("qeshmOfficeH").innerHTML = qeshmOffice;
+    document.getElementById("isfahanOfficeH").innerHTML = esfahanOffice;
+    document.getElementById("tehranOfficeH").innerHTML = tehranOffice;
+    document.getElementById("bandarOfficeH").innerHTML = bandarOffice;
     //info
     document.getElementById("qeshmInfo").innerHTML = qeshmInfo;
     document.getElementById("isfahanInfo").innerHTML = esfahanInfo;
     document.getElementById("tehranInfo").innerHTML = tehranInfo;
     document.getElementById("bandarInfo").innerHTML = bandarInfo;
+
+//Contact Us
+    document.getElementById("contactusHead").innerHTML = contactHeader;
+    document.getElementById("qeshm").innerHTML = qeshm;
+    document.getElementById("tehran").innerHTML = tehran;
+    document.getElementById("isfahan").innerHTML = esfahan;
+    document.getElementById("bandarabbas").innerHTML = bandar;
+    document.getElementById("qeshmP").innerHTML = qeshmP;
+    document.getElementById("tehranP").innerHTML = tehranP;
+    document.getElementById("isfahanP").innerHTML = esfahanP;
+    document.getElementById("bandarabbasP").innerHTML = bandarP;
+    document.getElementById("telegram").innerHTML = telegram;
+    document.getElementById("telIcon").dir = "rtl";
 }
